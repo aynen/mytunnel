@@ -1,8 +1,6 @@
 module github.com/jpillora/chisel
 
-go 1.25
-
-toolchain go1.25.7
+go 1.26.0
 
 require (
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
@@ -13,7 +11,7 @@ require (
 	github.com/jpillora/sizestr v1.0.0
 	golang.org/x/crypto v0.48.0
 	golang.org/x/net v0.50.0
-	golang.org/x/sync v0.19.0
+	golang.org/x/sync v0.24.0
 )
 
 require (
